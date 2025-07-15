@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Fitness</title>
+    <style>
+        body{
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            margin: auto;
+        }
+        header::before{
+            content: "";
+            background: url(https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg) no-repeat center center/cover ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+      
+        .left{
+            position: absolute;
+            left: 33px;
+            top: 8px;
+        }
+        .mid{
+            padding-top: 1px;
+            display: block;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .navbar li a:hover{
+            background-color: white;
+            color: black;
+
+        }
+        .right{
+            position: absolute;
+            right: 33px;
+            top: 18px;
+        }
+        .right a{
+            text-decoration: none;
+            color: white;
+           
+            font-weight: bolder;
+        }
+        .navbar li{
+            display: inline-block;
+            margin: auto;
+        }
+        .navbar li a{
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: auto;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            
+        }
+
+        .container{
+            color: rgb(0, 0, 0);
+            width: 30%;
+            height: 350px;
+            margin-top: 163px;
+            margin-left: 75px;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            border-radius: 10px;
+            position: absolute;
+            background-color: rgba(180, 172, 171, 0.605);
+        }
+        .container p{
+            margin-top: auto;
+        }
+        .input{
+            border: 4px solid black;
+            text-align: center;
+            width: 90%;
+            padding: 10px;
+            font-size: 17px;
+            border-radius: 10px;
+            font-weight: bolder;
+        }
+        .btn{
+            display: block;
+            margin: 30px auto;
+            padding: 10px;
+            width: 50%;
+            border: 3px solid black;
+            background-color: rgba(0, 0, 0, 0.356);
+            color: white;
+            font-weight: bolder;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+      
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+           
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="*">Home</a></li>
+                <li><a href="*">About</a></li>
+                <li><a href="*">Fitness</a></li>
+                <li><a href="*">Trainers</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="">Contact Us</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <p>Join the World Of tranformation</p>
+        <form action="Backend">
+            <div class="form">
+                <input type="text" placeholder="Name" class="input"><br>
+                <input type="email" placeholder="Email" class="input"><br>
+                <input type="number" placeholder="Contact Info" class="input"><br>
+              
+            </div>
+              <button class="btn">Submit
+
+                </button>
+        </form>
+    </div>
+</body>
+</html>
